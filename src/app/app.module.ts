@@ -4,18 +4,18 @@ import { HeaderComponent } from './header/header.component';
 import { UserInputComponent } from './user-input/user-input.component';
 import { InvestmentResultsComponent } from './investment-results/investment-results.component';
 
-import { App } from './app';
+import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
-    App,
+    AppComponent,
     HeaderComponent,
     UserInputComponent,
     InvestmentResultsComponent,
   ],
   imports: [BrowserModule, FormsModule],
-  bootstrap: [App],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
